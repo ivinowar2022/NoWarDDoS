@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  ddos:
+    image: 'ivinowar2022/ddos:latest'
+    # Max connections
+    command: >
+      500
+    sysctls:
+      - net.core.somaxconn=1000
+      - net.ipv4.ip_local_port_range=10000 65535
+    restart: on-failure

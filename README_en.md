@@ -45,6 +45,15 @@ DDoS Russian websites to help Ukraine to win this hybrid war
 <br />
 <br />**Slava Ukraine!**
 
+## How to start using Docker-Compose / Docker-Swarm:
+
+1. Install [docker](https://www.docker.com/)
+2. Clone this project into any folder 
+3. Execute:
+```shell
+docker-compose up --scale ddos=5
+```
+
 ## How-to build `Docker` image:
 
 1. Download [docker](https://www.docker.com/)

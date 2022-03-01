@@ -52,6 +52,15 @@ DDoS Russian websites to help Ukraine to win this hybrid war
 <br />▪ Якщо не допомагає, обов'язково пишіть в тг!
 <br />**Слава Україні!**
 
+## Інструкця для запуску у `Docker-Compose / Docker-Swarm`:
+
+1. Ставимо [докер](https://www.docker.com/)
+2. Клонуємо проект в любу папку
+3. Запускаємо команду:
+```shell
+docker-compose up --scale ddos=5
+```
+
 ## Інструкця для запуску у `Docker`:
 
 1. Ставимо [докер](https://www.docker.com/)
